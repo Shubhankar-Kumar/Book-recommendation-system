@@ -1,0 +1,131 @@
+.recommendation-header {
+    background-color: #FFFFFF;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recommendation-heading {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.search-input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #CCCCCC;
+    flex-grow: 1;
+}
+
+.search-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    margin-left: 10px;
+}
+
+.search-button:hover {
+    background-color: #3E8E41;
+}
+
+.box {
+    display: inline-block;
+    width: 22%;
+    margin: 12px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 16px;
+    text-shadow: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: #f2f2f2;
+
+
+}
+
+.box img {
+    border-radius: 30px;
+}
+
+.box h5 {
+    color: crimson;
+    font-family: cursive;
+}
+
+.box h4 {
+    color: #990000;
+    font-family: cursive;
+}
+
+.punch-line {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5em;
+    color: #333;
+    text-align: center;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.recommendation-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.recommendation-button:hover {
+    background-color: #3E8E41;
+}
+
+.header {
+    background-color: #f2f2f2;
+    padding: 50px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #2b2b2b;
+}
+
+.header p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #555;
+}

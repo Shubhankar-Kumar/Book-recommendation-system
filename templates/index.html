@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>"BookWorm: Personalized Book Recommendations for Every Reader"</title>
+
+</head>
+
+<body>
+
+    <div class="tell">
+        <div class="header">
+            <h1>"Welcome to our book recommendation website - where reading is an adventure.</h1>
+            <p>From bestsellers to hidden gems, we've got personalized recommendations to help you find your next
+                literary
+                journey. Get lost in a book today!"</p>
+            <a href="/recommend"><button class="recommendation-button">Get Recommendations</button></a>
+        </div>
+
+
+
+    </div>
+    <div class="sks">
+        <h1 class="punch-line">"Discover the Classics and Beyond: Our Top 50 Must-Read Books"</h1>
+        {% for i in range(author|length) %}
+        <div class="box">
+            <img src={{ image[i] }}>
+            <h4>{{ title[i] }}</h4>
+            <h5>Author:- {{ author[i] }}</h5>
+            <h5>Rating:- {{ rating[i] }}</h5>
+
+        </div>
+        {% endfor %}
+    </div>
+
+
+</body>
+
+</html>

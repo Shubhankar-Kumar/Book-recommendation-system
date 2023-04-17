@@ -1,0 +1,45 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recommendation engine</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+  <header class="recommendation-header">
+    <h1 class="recommendation-heading">Find Your Next Great Read</h1>
+    <form class="search-form" action="/final" method="post">
+      <label for="search-input" class="search-label">Enter a book name:</label>
+      <input name="user" list="movies" class="search-input" id="one" placeholder="e.g. Harry Potter">
+      <datalist id="movies">
+        {% for i in options %}
+        <option value="{{ i }}"></option>
+        {% endfor %}
+      </datalist>
+      <button type="submit" class="search-button">Get Recommendations</button>
+
+    </form>
+    <a href="/"><button type="submit" class="search-button">Home</button></a>
+  </header>
+  <div class="sks">
+    <h1 class="punch-line">"We make book recommendations so you don't have to."</h1>
+    {% for i in data %}
+    <div class="box">
+      <img src={{ i[2] }}>
+      <h4>{{ i[0] }}</h4>
+      <h5>Author:- {{ i[1] }}</h5>
+      <h5>Publisher:- {{ i[3] }}</h5>
+
+    </div>
+    {% endfor %}
+  </div>
+
+
+
+</body>
+
+</html>
