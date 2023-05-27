@@ -8,4 +8,21 @@ This project is a book recommender system that involves the complete process fro
 - static/css/: CSS files for styling the HTML templates.
 - model development/: Jupyter Notebooks used for exploratory data analysis, feature engineering, and model development.
 - data (https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset)
-- 
+
+## Usage
+Once the project is up and running, follow the instructions provided on the web interface to interact with the book recommender system. Enter your preferences or search criteria, and the system will recommend books based on your inputs.
+
+## Dataset
+The dataset used for this project is obtained from Kaggle. It contains information about books, such as title, author, genre, and user ratings. The dataset has been preprocessed and used for exploratory data analysis, feature engineering, and training the recommender system.
+
+## Technologies Used
+### The following technologies and libraries were used in this project:
+
+- Python
+- Flask
+- HTML
+- CSS
+- Jupyter Notebook
+- Pandas
+- NumPy
+- Scikit-learn
