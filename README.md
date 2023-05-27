@@ -7,4 +7,5 @@ This project is a book recommender system that involves the complete process fro
 - templates/: This directory contains the HTML templates used for the user interface.
 - static/css/: CSS files for styling the HTML templates.
 - model development/: Jupyter Notebooks used for exploratory data analysis, feature engineering, and model development.
-- data/: This directory contains the dataset used for the project.
+- data (https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset)
+- 
