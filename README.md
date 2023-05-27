@@ -1,1 +1,2 @@
 # Book-recommendation-system
+This project is a book recommender system that involves the complete process from exploratory data analysis to feature engineering and model development. The project utilizes Flask for model deployment, with a user-friendly interface created using HTML and CSS. The dataset used for this project is obtained from Kaggle, and all the backend work is performed inside Jupyter Notebook.
